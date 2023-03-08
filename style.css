@@ -1,0 +1,52 @@
+/*light green 6ECA0C light blue 0CCA8E dark 1D201F light yellow 20201D*/
+header {
+    background-image: url(images/banner.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+.main-section {
+    background-image: url(images/tech-tablebg.jpg);
+}
+
+.welcome-text {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.footer-mail {
+    color: white;
+}
+
+.fa-brands {
+    color: white;
+}
+.fa-brands:hover {
+    background-color: #6ECA0C;
+    padding: 5px;
+    color: black;
+}
+
+.fa-regular {
+    color: white;
+}
+
+.fa-regular:hover {
+    background-color: #6ECA0C;
+    padding: 5px;
+    color: black;
+}
+
+
+.hero {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 3rem;
+}
+.notes {
+    color: yellow;
+}
