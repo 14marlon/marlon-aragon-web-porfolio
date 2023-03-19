@@ -15,84 +15,87 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand fw-bold" href="#">Lhon</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" href="work.html">Work History</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" href="portfolio.html">Portfolio</a>
-                        </li>
-                    </ul>
-                    <input type="search" name="search" id="search" placeholder="Search">
-                    <input type="submit" name="search" id="search" value="search">
-                </div>
-            </div>
-        </nav>
-    </header>
+            <header class="sticky-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid main-section">
+                        <img class="logo" src="images/lhon-removebg-preview.png" alt="">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="work.html">Work History</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="portfolio.html">Portfolio</a>
+                                </li>
+                            </ul>
+                            <input type="search" name="search" id="search" placeholder="Search">
+                            <input type="submit" name="search" id="search" value="search">
+                        </div>
+                    </div>
+                </nav>
+            </header>
 
-    <main class="container-fluid main-section">
-        <h2 class="hero text-center animate__animated animate__slow animate__swing">All About Me</h2>
+    <main class="container-fluid main-section background">
+        <h2 class="hero text-center">All About Me</h2>
         <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4 d-grid mx-auto">
-                    <div class="img-top p-2">
-                        <img src="images/portfolio-image-2.jpg" class="rounded shadow" style="width: 100%; height: 100%;" alt="">
+                    <div class="img-top animate__animated animate__slow animate__fadeInUp">
+                        <img src="images/portfolio-image-3-removebg-preview.png" class="rounded" style="width: 100%; height: 100%;" alt="Picture of me">
                     </div>
-                    <h1 class="mt-3 text-center notes-title">Marlon Aragon</h1>
-                    <h2 class="mt-3 text-center notes-subtitle">Full Stack Web Developer</h2>
-                    <h4 class="text-danger shadow notes-subtitle-2">Hobbies</h4>
+                    
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-3 d-grid animate__animated animate__slow animate__fadeInDown">
+                    <h4 class="mt-2 notes-subtitle-2">Current Address:</h4>
+                    <p class="notes">Block 14 Lot 1, Labella Homes, Brgy Sala Cabuyao City Laguna</p>
+                    <h4 class="mt-2 notes-subtitle-2">Hometown</h4>
+                    <p class="notes">Socorro Oriental Mindoro</p>
+                    <p class="mt-2 notes"><span class=" notes-subtitle-2 fs-4"> Age:</span> 37</p>
+                    <p class="mt-2 notes">Nationality: Filipino</p>
+                    <h4 class="mt-2 notes-subtitle-2">Language:</h4>
+                    <p class="mt-2 notes"> Tagalog and Native English</p>
+                    <h4 class="mt-2 notes-subtitle-2">Skills</h4>
+                    <p class="mt-2 notes">Front End web Developer</p>
+                    <p class="mt-2 notes">Back End Developer</p>
+                </div>
+            <div class="col-sm-12 col-md-3 d-grid mx-auto animate__animated animate__slow animate__fadeInRight">
+                    <div>
+                        <h1 class="text-center notes-subtitle-2">Education</h1>
+                    </div>
+                    <h4 class="mt-2 notes-subtitle-2">High School</h4>
+                    <p class="notes">Leuteboro National High School</p>
+                    <p class="notes">Leuteboro Socorro Oriental Mindoro</p>
+                    <p class="notes">SY - 2000 to 2004</p>
+                    <h4 class="mt-2 notes-subtitle-2">Bootcamp</h4>
+                    <p class="notes">Kodego</p>
+                    <p class="notes">Batch WD-46</p>
+                    <p class="notes">February to June 2023</p>
+
+                    <h4 class="notes-subtitle-2">Hobbies</h4>
                     <p class="notes">Watching documentaries</p>
                     <p class="notes">Playing Billiards</p>
-                    <h4 class="text-danger shadow notes-subtitle-2">Favorites</h4>
+                    <h4 class="notes-subtitle-2">Favorites</h4>
                     <p class="notes">Music: Pop</p>
                     <p class="notes">Food: any Food except Shrimp</p>
-                    <h4 class="text-danger shadow notes-subtitle-2">interests</h4>
+                    <h4 class="notes-subtitle-2">Interests</h4>
                     <p class="notes">Travel</p>
                     <p class="notes">Music</p>
                     <p class="notes">Urban Planting</p>
                     <p class="notes">Cooking</p>
-                </div>
-
-                <div class="col-sm-12 col-md-4 col-lg-3 d-grid mx-auto">
-                    <h4 class="mt-2 text-danger shadow notes-subtitle-2">Current Address:</h4>
-                    <h5 class="notes">Block 14 Lot 1, Labella Homes, Brgy Sala Cabuyao City Laguna</h5>
-                    <h4 class="mt-2 text-danger shadow notes-subtitle-2">Hometown</h4>
-                    <h3 class="notes">Socorro Oriental Mindoro</h3>
-                    <h3 class="mt-2 notes"><span class=" text-danger shadow notes-subtitle-2"> Age:</span> 37</h3>
-                    <h3 class="mt-2 notes">Nationality: Filipino</h3>
-                    <h3 class="mt-2 text-danger shadow notes-subtitle-2">Language:</h3>
-                    <h4 class="mt-2 notes"> Tagalog and Native English</h4>
-                    <h4 class="mt-2 text-danger shadow notes-subtitle-2">Skills</h4>
-                    <h3 class="mt-2 notes">Front End web Developer</h3>
-                    <h3 class="mt-2 notes">Back End Developer</h3>
-                </div>
-            <div class="col-sm-12 col-md-3 d-grid mx-auto">
-                    <div>
-                        <h1 class="text-center text-danger">Education</h1>
-                    </div>
-                    <h3 class="mt-2 text-danger shadow notes-subtitle-2">High School</h3>
-                    <p class="notes">Leuteboro National High School</p>
-                    <p class="notes">Leuteboro Socorro Oriental Mindoro</p>
-                    <p class="notes">SY - 2000 to 2004</p>
-                    <h4 class="mt-2 text-danger shadow notes-subtitle-2">Bootcamp</h4>
-                    <p class="notes">Kodego</p>
-                    <p class="notes">Batch WD-46</p>
-                    <p class="notes">February to June 2023</p>
             </div>
         </div>
     </main>

@@ -1,10 +1,22 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.background {
+    background-image: url(images/main-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
 ul li a:hover {
-    background-color: #F0A500;
+    background-color: #673de6;
     transition: .8s;
     border-radius: 5px;
 }
+.logo {
+    height: 100px;
+}
 .main-section {
-    background-color: #15133C;
+    background-color: #f4f5ff;
 }
 
 .welcome-text {
@@ -20,7 +32,7 @@ ul li a:hover {
     color: white;
 }
 .fa-brands:hover {
-    background-color: #F0A500;
+    background-color: #e1e8ff;
     padding: 10px;
     color: black;
 }
@@ -29,7 +41,7 @@ ul li a:hover {
     color: white;
 }
 .fa-regular:hover {
-    background-color: #F0A500;
+    background-color: #673de6;
     padding: 5px;
     color: black;
 }
@@ -38,26 +50,33 @@ ul li a:hover {
 .hero {
     font-size: 4rem;
     text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: #F0A500;
+    color: #673de6;
 }
 .notes {
-    color: #A47E3B;
-    font-weight: bold;
-    border-radius: 5px;
-    font-family: 'Arima Madurai', cursive;;
+    color: #251163;
+    font-size: 17px;
 }
 .notes-title {
-    color: #E6D5B8;
+    color: #251163;
     font-weight: bold;
     font-size: 3rem;
 }
 .notes-subtitle {
-    color: #E6D5B8;
+    color: #673de6;
 }
 .notes-subtitle-2 {
     font-weight: bold;
-    color: #15133C;
+    color: #673de6;
+}
+.language-icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 80%;
+}
+.work-history-notes {
+    color: #251163;
+    font-size: 17px;
 }
